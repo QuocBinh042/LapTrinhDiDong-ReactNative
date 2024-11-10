@@ -1,0 +1,26 @@
+npm install --global expo-cli
+expo init React_Tuan8_TranLeQuocBinh
+
+mkdir server
+cd server
+npm init -y
+npm install express cors mysql mongoose mssql
+
+npx create-react-app client
+cd client
+npm install axios
+
+
+install react native navigation:
+
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+
+
